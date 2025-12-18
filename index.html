@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fire Brian Hartline</title>
+    <style>
+      :root { --bg:#0b0f0e; --text:#f7f7f7; }
+      * { box-sizing: border-box; }
+      body{
+        margin:0;
+        min-height:100vh;
+        display:grid;
+        place-items:center;
+        background:
+          radial-gradient(circle at 20% 10%, rgba(255,55,140,.18), transparent 40%),
+          radial-gradient(circle at 80% 30%, rgba(255,215,0,.10), transparent 45%),
+          var(--bg);
+        color:var(--text);
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      }
+      main{
+        width:min(900px, 92vw);
+        padding: 28px 18px 40px;
+        text-align:center;
+      }
+      img{
+        width:100%;
+        height:auto;
+        border-radius:18px;
+        box-shadow: 0 18px 60px rgba(0,0,0,.55);
+        border: 2px solid rgba(255,255,255,.10);
+        background:#111;
+      }
+      h1{
+        margin: 18px 0 0;
+        font-size: clamp(2rem, 4.5vw, 3.2rem);
+        letter-spacing: .5px;
+        text-transform: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <!-- Put hartline_heart.png in the same folder as this HTML file -->
+      <img src="hartline_heart.png" alt="Brian Hartline with a heart around him" />
+      <h1>No. He&rsquo;s perfect</h1>
+    </main>
+  </body>
+</html>
